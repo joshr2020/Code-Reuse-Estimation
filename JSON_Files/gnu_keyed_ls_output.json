@@ -1,0 +1,2318 @@
+{
+   "_G_line": {
+      "Address": "000000010001a000",
+      "Type": "s"
+   },
+   "_RFC3986": {
+      "Address": "0000000100020280",
+      "Type": "b"
+   },
+   "_UNKNOWN_SECURITY_CONTEXT": {
+      "Address": "0000000100020030",
+      "Type": "d"
+   },
+   "_Version": {
+      "Address": "0000000100020040",
+      "Type": "D"
+   },
+   "__DefaultRuneLocale": {
+      "Address": "",
+      "Type": "U"
+   },
+   "____mb_cur_max": {
+      "Address": "",
+      "Type": "U"
+   },
+   "____mb_cur_max_l": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___argmatch_die": {
+      "Address": "0000000100008933",
+      "Type": "t"
+   },
+   "___assert_rtn": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___bzero": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___error": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___fpending": {
+      "Address": "000000010001448e",
+      "Type": "T"
+   },
+   "___maskrune": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___mb_cur_max": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___memcpy_chk": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___mon_yday": {
+      "Address": "000000010001bdc0",
+      "Type": "s"
+   },
+   "___snprintf_chk": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___sprintf_chk": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___stack_chk_fail": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___stack_chk_guard": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___stderrp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___stdoutp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___strcat_chk": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___strftime_internal": {
+      "Address": "000000010000c6f8",
+      "Type": "t"
+   },
+   "___swbuf": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___tolower": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___toupper": {
+      "Address": "",
+      "Type": "U"
+   },
+   "___xargmatch_internal": {
+      "Address": "0000000100008bad",
+      "Type": "T"
+   },
+   "__exit": {
+      "Address": "",
+      "Type": "U"
+   },
+   "__getopt_internal_r": {
+      "Address": "0000000100014b8a",
+      "Type": "T"
+   },
+   "__getopt_long_only_r": {
+      "Address": "000000010001582e",
+      "Type": "T"
+   },
+   "__getopt_long_r": {
+      "Address": "00000001000157f6",
+      "Type": "T"
+   },
+   "__mh_execute_header": {
+      "Address": "0000000100000000",
+      "Type": "T"
+   },
+   "__obstack_allocated_p": {
+      "Address": "000000010001626d",
+      "Type": "T"
+   },
+   "__obstack_begin": {
+      "Address": "000000010001607c",
+      "Type": "T"
+   },
+   "__obstack_begin_1": {
+      "Address": "0000000100016125",
+      "Type": "T"
+   },
+   "__obstack_begin_worker": {
+      "Address": "0000000100016098",
+      "Type": "t"
+   },
+   "__obstack_free": {
+      "Address": "0000000100016293",
+      "Type": "T"
+   },
+   "__obstack_memory_used": {
+      "Address": "0000000100016307",
+      "Type": "T"
+   },
+   "__obstack_newchunk": {
+      "Address": "0000000100016145",
+      "Type": "T"
+   },
+   "_abformat": {
+      "Address": "00000001000203f0",
+      "Type": "b"
+   },
+   "_abort": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_acl_errno_valid": {
+      "Address": "000000010000880c",
+      "Type": "T"
+   },
+   "_acl_extended_nontrivial": {
+      "Address": "0000000100008837",
+      "Type": "T"
+   },
+   "_acl_free": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_acl_get_entry": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_acl_get_file": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_active_dir_set": {
+      "Address": "0000000100020110",
+      "Type": "b"
+   },
+   "_align_variable_outer_quotes": {
+      "Address": "00000001000203e0",
+      "Type": "b"
+   },
+   "_ambsalign": {
+      "Address": "000000010000bed8",
+      "Type": "T"
+   },
+   "_any_has_acl": {
+      "Address": "0000000100021018",
+      "Type": "b"
+   },
+   "_areadlink_with_size": {
+      "Address": "0000000100008860",
+      "Type": "T"
+   },
+   "_argmatch": {
+      "Address": "0000000100008942",
+      "Type": "T"
+   },
+   "_argmatch_die": {
+      "Address": "0000000100020048",
+      "Type": "D"
+   },
+   "_argmatch_invalid": {
+      "Address": "0000000100008a2e",
+      "Type": "T"
+   },
+   "_argmatch_to_argument": {
+      "Address": "0000000100008c19",
+      "Type": "T"
+   },
+   "_argmatch_valid": {
+      "Address": "0000000100008a91",
+      "Type": "T"
+   },
+   "_atexit": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_author_width": {
+      "Address": "0000000100021030",
+      "Type": "b"
+   },
+   "_base_len": {
+      "Address": "000000010000952f",
+      "Type": "T"
+   },
+   "_block_size_args": {
+      "Address": "000000010001fdf0",
+      "Type": "s"
+   },
+   "_block_size_opts": {
+      "Address": "000000010001b1b0",
+      "Type": "s"
+   },
+   "_block_size_width": {
+      "Address": "0000000100021020",
+      "Type": "b"
+   },
+   "_btowc": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_calculate_columns": {
+      "Address": "000000010000838a",
+      "Type": "t"
+   },
+   "_calloc": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_canonicalize_file_name": {
+      "Address": "0000000100008c75",
+      "Type": "T"
+   },
+   "_canonicalize_filename_mode": {
+      "Address": "0000000100008c81",
+      "Type": "T"
+   },
+   "_caught_signals": {
+      "Address": "0000000100020380",
+      "Type": "b"
+   },
+   "_change_env": {
+      "Address": "0000000100017882",
+      "Type": "t"
+   },
+   "_charset_aliases": {
+      "Address": "0000000100021138",
+      "Type": "b"
+   },
+   "_check_symlink_color": {
+      "Address": "00000001000200f8",
+      "Type": "b"
+   },
+   "_check_tuning": {
+      "Address": "000000010000a199",
+      "Type": "t"
+   },
+   "_clear_files": {
+      "Address": "00000001000036eb",
+      "Type": "t"
+   },
+   "_clock_gettime": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_clone_quoting_options": {
+      "Address": "000000010000e41c",
+      "Type": "T"
+   },
+   "_close": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_close_stdout": {
+      "Address": "0000000100009392",
+      "Type": "T"
+   },
+   "_close_stdout_set_file_name": {
+      "Address": "0000000100009378",
+      "Type": "T"
+   },
+   "_close_stdout_set_ignore_EPIPE": {
+      "Address": "0000000100009385",
+      "Type": "T"
+   },
+   "_close_stream": {
+      "Address": "0000000100009309",
+      "Type": "T"
+   },
+   "_closedir": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_color_buf": {
+      "Address": "0000000100020ff8",
+      "Type": "b"
+   },
+   "_color_ext_list": {
+      "Address": "0000000100021000",
+      "Type": "b"
+   },
+   "_color_indicator": {
+      "Address": "000000010001fe90",
+      "Type": "d"
+   },
+   "_color_symlink_as_referent": {
+      "Address": "00000001000200f1",
+      "Type": "b"
+   },
+   "_column_info": {
+      "Address": "00000001000210f8",
+      "Type": "b"
+   },
+   "_compute_bucket_size": {
+      "Address": "000000010000a210",
+      "Type": "t"
+   },
+   "_current_time": {
+      "Address": "00000001000200e0",
+      "Type": "b"
+   },
+   "_cwd_file": {
+      "Address": "0000000100020250",
+      "Type": "b"
+   },
+   "_cwd_n_alloc": {
+      "Address": "0000000100020248",
+      "Type": "b"
+   },
+   "_cwd_n_used": {
+      "Address": "0000000100020258",
+      "Type": "b"
+   },
+   "_cwd_some_quoted": {
+      "Address": "0000000100021009",
+      "Type": "b"
+   },
+   "_decode_switches.posix_prefix": {
+      "Address": "0000000100019fe0",
+      "Type": "s"
+   },
+   "_default_quoting_options": {
+      "Address": "0000000100021140",
+      "Type": "b"
+   },
+   "_default_tuning": {
+      "Address": "000000010001b170",
+      "Type": "s"
+   },
+   "_dereference": {
+      "Address": "00000001000200fc",
+      "Type": "b"
+   },
+   "_dev_ino_compare": {
+      "Address": "000000010000369d",
+      "Type": "t"
+   },
+   "_dev_ino_free": {
+      "Address": "00000001000036b8",
+      "Type": "t"
+   },
+   "_dev_ino_hash": {
+      "Address": "000000010000368c",
+      "Type": "t"
+   },
+   "_dev_ino_obstack": {
+      "Address": "0000000100020118",
+      "Type": "b"
+   },
+   "_dir_len": {
+      "Address": "0000000100009452",
+      "Type": "T"
+   },
+   "_dir_name": {
+      "Address": "000000010000943d",
+      "Type": "T"
+   },
+   "_directories_first": {
+      "Address": "000000010002017f",
+      "Type": "b"
+   },
+   "_dired": {
+      "Address": "0000000100020181",
+      "Type": "b"
+   },
+   "_dired_dump_obstack": {
+      "Address": "00000001000051ac",
+      "Type": "t"
+   },
+   "_dired_obstack": {
+      "Address": "0000000100020188",
+      "Type": "b"
+   },
+   "_dired_pos": {
+      "Address": "0000000100020260",
+      "Type": "b"
+   },
+   "_dirfd": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_dirname_quoting_options": {
+      "Address": "00000001000203e8",
+      "Type": "b"
+   },
+   "_dup_cloexec": {
+      "Address": "00000001000092f6",
+      "Type": "T"
+   },
+   "_emit_ancillary_info.infomap": {
+      "Address": "000000010001fd80",
+      "Type": "s"
+   },
+   "_emit_bug_reporting_address": {
+      "Address": "0000000100010891",
+      "Type": "T"
+   },
+   "_end_pattern": {
+      "Address": "00000001000143b4",
+      "Type": "t"
+   },
+   "_end_wpattern": {
+      "Address": "0000000100013d7e",
+      "Type": "t"
+   },
+   "_error": {
+      "Address": "00000001000117c7",
+      "Type": "T"
+   },
+   "_error_at_line": {
+      "Address": "00000001000119e1",
+      "Type": "T"
+   },
+   "_error_at_line.old_file_name": {
+      "Address": "0000000100021280",
+      "Type": "b"
+   },
+   "_error_at_line.old_line_number": {
+      "Address": "0000000100021288",
+      "Type": "b"
+   },
+   "_error_message_count": {
+      "Address": "00000001000212e8",
+      "Type": "S"
+   },
+   "_error_one_per_line": {
+      "Address": "00000001000212ec",
+      "Type": "S"
+   },
+   "_error_print_progname": {
+      "Address": "00000001000212f0",
+      "Type": "S"
+   },
+   "_error_tail": {
+      "Address": "00000001000118f3",
+      "Type": "t"
+   },
+   "_exchange": {
+      "Address": "000000010001511c",
+      "Type": "t"
+   },
+   "_exit": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_exit_failure": {
+      "Address": "0000000100020050",
+      "Type": "D"
+   },
+   "_exit_status": {
+      "Address": "00000001000200d0",
+      "Type": "b"
+   },
+   "_ext_match": {
+      "Address": "0000000100013e54",
+      "Type": "t"
+   },
+   "_ext_wmatch": {
+      "Address": "00000001000137c0",
+      "Type": "t"
+   },
+   "_extract_dirs_from_files": {
+      "Address": "000000010000443c",
+      "Type": "t"
+   },
+   "_failed_strcoll": {
+      "Address": "0000000100021060",
+      "Type": "b"
+   },
+   "_fclose": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fcntl": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fdopendir$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fflush": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_file_escape": {
+      "Address": "0000000100006454",
+      "Type": "t"
+   },
+   "_file_failure": {
+      "Address": "0000000100005a50",
+      "Type": "t"
+   },
+   "_file_has_acl": {
+      "Address": "000000010000955b",
+      "Type": "T"
+   },
+   "_file_has_acl_cache.unsupported_device": {
+      "Address": "000000010002104c",
+      "Type": "b"
+   },
+   "_file_human_output_opts": {
+      "Address": "00000001000203c0",
+      "Type": "b"
+   },
+   "_file_name": {
+      "Address": "0000000100021108",
+      "Type": "b"
+   },
+   "_file_name_concat": {
+      "Address": "0000000100009671",
+      "Type": "T"
+   },
+   "_file_output_block_size": {
+      "Address": "0000000100020010",
+      "Type": "d"
+   },
+   "_file_size_width": {
+      "Address": "0000000100021040",
+      "Type": "b"
+   },
+   "_filemodestring": {
+      "Address": "0000000100009663",
+      "Type": "T"
+   },
+   "_filename_quoting_options": {
+      "Address": "0000000100020278",
+      "Type": "b"
+   },
+   "_fileno": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_filetype_letter": {
+      "Address": "000000010001e346",
+      "Type": "s"
+   },
+   "_filevercmp": {
+      "Address": "0000000100009771",
+      "Type": "T"
+   },
+   "_flockfile": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_flush_stdout": {
+      "Address": "00000001000118c8",
+      "Type": "t"
+   },
+   "_format": {
+      "Address": "00000001000200f4",
+      "Type": "b"
+   },
+   "_format_args": {
+      "Address": "000000010001fa00",
+      "Type": "s"
+   },
+   "_format_needs_stat": {
+      "Address": "000000010002017e",
+      "Type": "b"
+   },
+   "_format_needs_type": {
+      "Address": "0000000100020180",
+      "Type": "b"
+   },
+   "_format_types": {
+      "Address": "0000000100019f80",
+      "Type": "s"
+   },
+   "_format_user": {
+      "Address": "0000000100008711",
+      "Type": "t"
+   },
+   "_format_user_or_group": {
+      "Address": "0000000100008750",
+      "Type": "t"
+   },
+   "_format_user_or_group_width": {
+      "Address": "00000001000065da",
+      "Type": "t"
+   },
+   "_format_user_width": {
+      "Address": "00000001000065ad",
+      "Type": "t"
+   },
+   "_fprintf": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fpurge": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fputc": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fputs": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_freading": {
+      "Address": "0000000100009bf3",
+      "Type": "T"
+   },
+   "_free": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_free_ent": {
+      "Address": "0000000100006530",
+      "Type": "t"
+   },
+   "_free_permission_context": {
+      "Address": "000000010000884b",
+      "Type": "T"
+   },
+   "_frexp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_frexpl": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fseeko": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fseterr": {
+      "Address": "000000010001456b",
+      "Type": "T"
+   },
+   "_fstat$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fstatat$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_ftello": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_funlockfile": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_fwrite": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_get_color_indicator.filetype_indicator": {
+      "Address": "000000010001b050",
+      "Type": "s"
+   },
+   "_get_funky_string": {
+      "Address": "0000000100005755",
+      "Type": "t"
+   },
+   "_get_quoting_style": {
+      "Address": "000000010000e45c",
+      "Type": "T"
+   },
+   "_get_type_indicator": {
+      "Address": "000000010000812b",
+      "Type": "t"
+   },
+   "_getcwd": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getenv": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getfilecon_cache.unsupported_device": {
+      "Address": "0000000100021048",
+      "Type": "b"
+   },
+   "_getgidbyname": {
+      "Address": "000000010000b86f",
+      "Type": "T"
+   },
+   "_getgrgid": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getgrnam": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getgroup": {
+      "Address": "000000010000b7e0",
+      "Type": "T"
+   },
+   "_gethostname": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getopt_data": {
+      "Address": "0000000100021290",
+      "Type": "b"
+   },
+   "_getprogname": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getpwnam": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getpwuid": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_gettext_quote": {
+      "Address": "0000000100010028",
+      "Type": "t"
+   },
+   "_gettime": {
+      "Address": "0000000100009c01",
+      "Type": "T"
+   },
+   "_gettimeofday": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_getuidbyname": {
+      "Address": "000000010000b6f8",
+      "Type": "T"
+   },
+   "_getuser": {
+      "Address": "000000010000b669",
+      "Type": "T"
+   },
+   "_gmtime_r": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_gnu_fnmatch": {
+      "Address": "0000000100011ca8",
+      "Type": "T"
+   },
+   "_gnu_mbswidth": {
+      "Address": "000000010000bf68",
+      "Type": "T"
+   },
+   "_gobble_file": {
+      "Address": "0000000100003775",
+      "Type": "t"
+   },
+   "_group_alist": {
+      "Address": "0000000100021128",
+      "Type": "b"
+   },
+   "_group_width": {
+      "Address": "000000010002102c",
+      "Type": "b"
+   },
+   "_guess_time_tm": {
+      "Address": "0000000100015ee1",
+      "Type": "t"
+   },
+   "_hard_locale": {
+      "Address": "0000000100009c49",
+      "Type": "T"
+   },
+   "_has_capability_cache.unsupported_device": {
+      "Address": "0000000100021044",
+      "Type": "b"
+   },
+   "_hash_clear": {
+      "Address": "000000010000a2fd",
+      "Type": "T"
+   },
+   "_hash_delete": {
+      "Address": "000000010000aa12",
+      "Type": "T"
+   },
+   "_hash_do_for_each": {
+      "Address": "0000000100009fb4",
+      "Type": "T"
+   },
+   "_hash_find_entry": {
+      "Address": "000000010000a8be",
+      "Type": "t"
+   },
+   "_hash_free": {
+      "Address": "000000010000a39f",
+      "Type": "T"
+   },
+   "_hash_get_entries": {
+      "Address": "0000000100009f70",
+      "Type": "T"
+   },
+   "_hash_get_first": {
+      "Address": "0000000100009ed7",
+      "Type": "T"
+   },
+   "_hash_get_max_bucket_length": {
+      "Address": "0000000100009cfc",
+      "Type": "T"
+   },
+   "_hash_get_n_buckets": {
+      "Address": "0000000100009cde",
+      "Type": "T"
+   },
+   "_hash_get_n_buckets_used": {
+      "Address": "0000000100009ce8",
+      "Type": "T"
+   },
+   "_hash_get_n_entries": {
+      "Address": "0000000100009cf2",
+      "Type": "T"
+   },
+   "_hash_get_next": {
+      "Address": "0000000100009f05",
+      "Type": "T"
+   },
+   "_hash_initialize": {
+      "Address": "000000010000a095",
+      "Type": "T"
+   },
+   "_hash_insert": {
+      "Address": "000000010000a9e6",
+      "Type": "T"
+   },
+   "_hash_insert_if_absent": {
+      "Address": "000000010000a6c0",
+      "Type": "T"
+   },
+   "_hash_lookup": {
+      "Address": "0000000100009e60",
+      "Type": "T"
+   },
+   "_hash_pjw": {
+      "Address": "000000010000ab96",
+      "Type": "T"
+   },
+   "_hash_print_statistics": {
+      "Address": "0000000100009d81",
+      "Type": "T"
+   },
+   "_hash_rehash": {
+      "Address": "000000010000a45b",
+      "Type": "T"
+   },
+   "_hash_reset_tuning": {
+      "Address": "000000010000a071",
+      "Type": "T"
+   },
+   "_hash_string": {
+      "Address": "000000010000a03b",
+      "Type": "T"
+   },
+   "_hash_table_ok": {
+      "Address": "0000000100009d34",
+      "Type": "T"
+   },
+   "_hide_patterns": {
+      "Address": "00000001000203a0",
+      "Type": "b"
+   },
+   "_hostname": {
+      "Address": "0000000100020240",
+      "Type": "b"
+   },
+   "_human_options": {
+      "Address": "000000010000b500",
+      "Type": "T"
+   },
+   "_human_output_opts": {
+      "Address": "00000001000203bc",
+      "Type": "b"
+   },
+   "_human_readable": {
+      "Address": "000000010000ac71",
+      "Type": "T"
+   },
+   "_ignore_EPIPE": {
+      "Address": "0000000100021110",
+      "Type": "b"
+   },
+   "_ignore_mode": {
+      "Address": "0000000100020390",
+      "Type": "b"
+   },
+   "_ignore_patterns": {
+      "Address": "0000000100020398",
+      "Type": "b"
+   },
+   "_imaxtostr": {
+      "Address": "000000010000b957",
+      "Type": "T"
+   },
+   "_immediate_dirs": {
+      "Address": "0000000100020100",
+      "Type": "b"
+   },
+   "_indent": {
+      "Address": "0000000100008636",
+      "Type": "t"
+   },
+   "_indicator_name": {
+      "Address": "000000010001faf0",
+      "Type": "s"
+   },
+   "_indicator_style": {
+      "Address": "0000000100020104",
+      "Type": "b"
+   },
+   "_indicator_style_args": {
+      "Address": "000000010001fa90",
+      "Type": "s"
+   },
+   "_indicator_style_types": {
+      "Address": "0000000100019fd0",
+      "Type": "s"
+   },
+   "_init_column_info.column_info_alloc": {
+      "Address": "0000000100021100",
+      "Type": "b"
+   },
+   "_inode_number_width": {
+      "Address": "000000010002101c",
+      "Type": "b"
+   },
+   "_internal_fnmatch": {
+      "Address": "0000000100012d20",
+      "Type": "t"
+   },
+   "_internal_fnwmatch": {
+      "Address": "0000000100011f2c",
+      "Type": "t"
+   },
+   "_interrupt_signal": {
+      "Address": "0000000100020270",
+      "Type": "b"
+   },
+   "_ioctl": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_is_colored": {
+      "Address": "000000010000363c",
+      "Type": "t"
+   },
+   "_isatty": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_last_component": {
+      "Address": "00000001000094ec",
+      "Type": "T"
+   },
+   "_ldexp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_ldexpl": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_length_of_file_name_and_frills": {
+      "Address": "00000001000081e9",
+      "Type": "t"
+   },
+   "_line_length": {
+      "Address": "00000001000203a8",
+      "Type": "b"
+   },
+   "_locale_charset": {
+      "Address": "000000010000ba47",
+      "Type": "T"
+   },
+   "_localeconv": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_localtime_offset": {
+      "Address": "00000001000212c8",
+      "Type": "b"
+   },
+   "_localtime_r": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_localtime_rz": {
+      "Address": "00000001000174e2",
+      "Type": "T"
+   },
+   "_localtz": {
+      "Address": "0000000100020170",
+      "Type": "b"
+   },
+   "_long_options": {
+      "Address": "000000010001f420",
+      "Type": "s"
+   },
+   "_long_time_expected_width.width": {
+      "Address": "0000000100020034",
+      "Type": "d"
+   },
+   "_long_time_format": {
+      "Address": "0000000100020020",
+      "Type": "d"
+   },
+   "_longjmp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_ls_mode": {
+      "Address": "0000000100020038",
+      "Type": "D"
+   },
+   "_lseek": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_lstat$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_main": {
+      "Address": "000000010000158c",
+      "Type": "T"
+   },
+   "_major_device_number_width": {
+      "Address": "0000000100021038",
+      "Type": "b"
+   },
+   "_malloc": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_match_suffix": {
+      "Address": "0000000100009b1c",
+      "Type": "t"
+   },
+   "_max_idx": {
+      "Address": "00000001000203d8",
+      "Type": "b"
+   },
+   "_mbrtowc": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_mbsalign": {
+      "Address": "000000010000bb15",
+      "Type": "T"
+   },
+   "_mbsinit": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_mbsnwidth": {
+      "Address": "000000010000bf8c",
+      "Type": "T"
+   },
+   "_mbsrtowcs": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_mbstowcs": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_mdir_name": {
+      "Address": "0000000100009489",
+      "Type": "T"
+   },
+   "_memchr": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_memcmp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_memcpy": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_memmove": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_memset": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_memset_pattern16": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_mfile_name_concat": {
+      "Address": "0000000100009686",
+      "Type": "T"
+   },
+   "_minor_device_number_width": {
+      "Address": "000000010002103c",
+      "Type": "b"
+   },
+   "_mktime_internal": {
+      "Address": "0000000100015929",
+      "Type": "T"
+   },
+   "_mktime_z": {
+      "Address": "0000000100017787",
+      "Type": "T"
+   },
+   "_mpsort": {
+      "Address": "000000010000c408",
+      "Type": "T"
+   },
+   "_mpsort_with_tmp": {
+      "Address": "000000010000c41c",
+      "Type": "t"
+   },
+   "_needs_quoting": {
+      "Address": "0000000100006559",
+      "Type": "t"
+   },
+   "_nl_langinfo": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_nlink_width": {
+      "Address": "0000000100021024",
+      "Type": "b"
+   },
+   "_nogroup_alist": {
+      "Address": "0000000100021130",
+      "Type": "b"
+   },
+   "_nonspacing_table_data": {
+      "Address": "000000010001b490",
+      "Type": "s"
+   },
+   "_nonspacing_table_ind": {
+      "Address": "000000010001b390",
+      "Type": "s"
+   },
+   "_nouser_alist": {
+      "Address": "0000000100021120",
+      "Type": "b"
+   },
+   "_nslots": {
+      "Address": "0000000100020060",
+      "Type": "d"
+   },
+   "_nstrftime": {
+      "Address": "000000010000c6d8",
+      "Type": "T"
+   },
+   "_numeric_ids": {
+      "Address": "000000010002038d",
+      "Type": "b"
+   },
+   "_obstack_alloc_failed_handler": {
+      "Address": "00000001000200c0",
+      "Type": "D"
+   },
+   "_openat": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_opendir$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_order": {
+      "Address": "0000000100009bb5",
+      "Type": "t"
+   },
+   "_output_block_size": {
+      "Address": "00000001000203c8",
+      "Type": "b"
+   },
+   "_owner_width": {
+      "Address": "0000000100021028",
+      "Type": "b"
+   },
+   "_patterns_match": {
+      "Address": "00000001000064f9",
+      "Type": "t"
+   },
+   "_pending_dirs": {
+      "Address": "00000001000200d8",
+      "Type": "b"
+   },
+   "_posixly_correct": {
+      "Address": "000000010002128c",
+      "Type": "b"
+   },
+   "_power_letter": {
+      "Address": "000000010001b1a4",
+      "Type": "s"
+   },
+   "_prep_non_filename_text": {
+      "Address": "00000001000055a5",
+      "Type": "t"
+   },
+   "_print_and_abort": {
+      "Address": "0000000100016324",
+      "Type": "t"
+   },
+   "_print_author": {
+      "Address": "00000001000203d1",
+      "Type": "b"
+   },
+   "_print_block_size": {
+      "Address": "000000010002017d",
+      "Type": "b"
+   },
+   "_print_current_files": {
+      "Address": "0000000100004572",
+      "Type": "t"
+   },
+   "_print_dir.first": {
+      "Address": "0000000100021008",
+      "Type": "b"
+   },
+   "_print_dir_name": {
+      "Address": "00000001000200d4",
+      "Type": "b"
+   },
+   "_print_file_name_and_frills": {
+      "Address": "00000001000079a6",
+      "Type": "t"
+   },
+   "_print_group": {
+      "Address": "00000001000203d0",
+      "Type": "b"
+   },
+   "_print_hyperlink": {
+      "Address": "0000000100020238",
+      "Type": "b"
+   },
+   "_print_inode": {
+      "Address": "000000010002038e",
+      "Type": "b"
+   },
+   "_print_name_with_quoting": {
+      "Address": "0000000100007ce5",
+      "Type": "t"
+   },
+   "_print_owner": {
+      "Address": "00000001000203b8",
+      "Type": "b"
+   },
+   "_print_scontext": {
+      "Address": "000000010002017c",
+      "Type": "b"
+   },
+   "_print_type_indicator": {
+      "Address": "00000001000080cc",
+      "Type": "t"
+   },
+   "_print_with_color": {
+      "Address": "00000001000200f0",
+      "Type": "b"
+   },
+   "_print_with_separator": {
+      "Address": "0000000100007b0a",
+      "Type": "t"
+   },
+   "_printf": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_printf_fetchargs": {
+      "Address": "0000000100016588",
+      "Type": "T"
+   },
+   "_printf_fetchargs.wide_null_string": {
+      "Address": "000000010001be00",
+      "Type": "s"
+   },
+   "_printf_frexp": {
+      "Address": "000000010000e2d0",
+      "Type": "T"
+   },
+   "_printf_frexpl": {
+      "Address": "000000010000e318",
+      "Type": "T"
+   },
+   "_printf_parse": {
+      "Address": "00000001000167a0",
+      "Type": "T"
+   },
+   "_process_long_option": {
+      "Address": "0000000100015232",
+      "Type": "t"
+   },
+   "_process_signals": {
+      "Address": "0000000100005e01",
+      "Type": "t"
+   },
+   "_program_name": {
+      "Address": "00000001000212e0",
+      "Type": "S"
+   },
+   "_put_indicator": {
+      "Address": "000000010000554d",
+      "Type": "t"
+   },
+   "_qmark_funny_chars": {
+      "Address": "0000000100020384",
+      "Type": "b"
+   },
+   "_queue_directory": {
+      "Address": "0000000100004253",
+      "Type": "t"
+   },
+   "_quote": {
+      "Address": "0000000100010008",
+      "Type": "T"
+   },
+   "_quote_mem": {
+      "Address": "000000010000ffd1",
+      "Type": "T"
+   },
+   "_quote_n": {
+      "Address": "000000010000fff0",
+      "Type": "T"
+   },
+   "_quote_n_mem": {
+      "Address": "000000010000ffc0",
+      "Type": "T"
+   },
+   "_quote_name": {
+      "Address": "0000000100005ab8",
+      "Type": "t"
+   },
+   "_quote_name_buf": {
+      "Address": "0000000100005ec2",
+      "Type": "t"
+   },
+   "_quote_quoting_options": {
+      "Address": "0000000100020078",
+      "Type": "D"
+   },
+   "_quotearg": {
+      "Address": "000000010000fa53",
+      "Type": "T"
+   },
+   "_quotearg_alloc": {
+      "Address": "000000010000f6dc",
+      "Type": "T"
+   },
+   "_quotearg_alloc_mem": {
+      "Address": "000000010000f6ee",
+      "Type": "T"
+   },
+   "_quotearg_buffer": {
+      "Address": "000000010000e50f",
+      "Type": "T"
+   },
+   "_quotearg_buffer_restyled": {
+      "Address": "000000010000e58e",
+      "Type": "t"
+   },
+   "_quotearg_char": {
+      "Address": "000000010000fc9b",
+      "Type": "T"
+   },
+   "_quotearg_char_mem": {
+      "Address": "000000010000fc0a",
+      "Type": "T"
+   },
+   "_quotearg_colon": {
+      "Address": "000000010000fd2f",
+      "Type": "T"
+   },
+   "_quotearg_colon_mem": {
+      "Address": "000000010000fda5",
+      "Type": "T"
+   },
+   "_quotearg_custom": {
+      "Address": "000000010000ff80",
+      "Type": "T"
+   },
+   "_quotearg_custom_mem": {
+      "Address": "000000010000ffa5",
+      "Type": "T"
+   },
+   "_quotearg_free": {
+      "Address": "000000010000f7d4",
+      "Type": "T"
+   },
+   "_quotearg_mem": {
+      "Address": "000000010000fa73",
+      "Type": "T"
+   },
+   "_quotearg_n": {
+      "Address": "000000010000f869",
+      "Type": "T"
+   },
+   "_quotearg_n_custom": {
+      "Address": "000000010000fee4",
+      "Type": "T"
+   },
+   "_quotearg_n_custom_mem": {
+      "Address": "000000010000fef5",
+      "Type": "T"
+   },
+   "_quotearg_n_mem": {
+      "Address": "000000010000fa42",
+      "Type": "T"
+   },
+   "_quotearg_n_options": {
+      "Address": "000000010000f881",
+      "Type": "t"
+   },
+   "_quotearg_n_style": {
+      "Address": "000000010000fa92",
+      "Type": "T"
+   },
+   "_quotearg_n_style_colon": {
+      "Address": "000000010000fe1a",
+      "Type": "T"
+   },
+   "_quotearg_n_style_mem": {
+      "Address": "000000010000fb37",
+      "Type": "T"
+   },
+   "_quotearg_style": {
+      "Address": "000000010000fbd8",
+      "Type": "T"
+   },
+   "_quotearg_style_mem": {
+      "Address": "000000010000fbee",
+      "Type": "T"
+   },
+   "_quoting_style_args": {
+      "Address": "000000010001fe10",
+      "Type": "S"
+   },
+   "_quoting_style_vals": {
+      "Address": "000000010001b360",
+      "Type": "S"
+   },
+   "_raise": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_ranged_convert": {
+      "Address": "0000000100015f7c",
+      "Type": "t"
+   },
+   "_raw_comparator": {
+      "Address": "000000010000a18d",
+      "Type": "t"
+   },
+   "_raw_hasher": {
+      "Address": "000000010000a178",
+      "Type": "t"
+   },
+   "_readdir$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_readlink": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_realloc": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_record_file": {
+      "Address": "00000001000095b8",
+      "Type": "T"
+   },
+   "_recursive": {
+      "Address": "0000000100020108",
+      "Type": "b"
+   },
+   "_rev_strcmp_atime": {
+      "Address": "0000000100007849",
+      "Type": "t"
+   },
+   "_rev_strcmp_ctime": {
+      "Address": "0000000100007561",
+      "Type": "t"
+   },
+   "_rev_strcmp_df_atime": {
+      "Address": "0000000100007880",
+      "Type": "t"
+   },
+   "_rev_strcmp_df_ctime": {
+      "Address": "0000000100007598",
+      "Type": "t"
+   },
+   "_rev_strcmp_df_extension": {
+      "Address": "0000000100006c0a",
+      "Type": "t"
+   },
+   "_rev_strcmp_df_mtime": {
+      "Address": "00000001000072b0",
+      "Type": "t"
+   },
+   "_rev_strcmp_df_name": {
+      "Address": "00000001000067b8",
+      "Type": "t"
+   },
+   "_rev_strcmp_df_size": {
+      "Address": "0000000100006ee9",
+      "Type": "t"
+   },
+   "_rev_strcmp_extension": {
+      "Address": "0000000100006b99",
+      "Type": "t"
+   },
+   "_rev_strcmp_mtime": {
+      "Address": "0000000100007279",
+      "Type": "t"
+   },
+   "_rev_strcmp_name": {
+      "Address": "00000001000067a5",
+      "Type": "t"
+   },
+   "_rev_strcmp_size": {
+      "Address": "0000000100006ebb",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_atime": {
+      "Address": "00000001000076d5",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_ctime": {
+      "Address": "00000001000073ed",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_atime": {
+      "Address": "000000010000770c",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_ctime": {
+      "Address": "0000000100007424",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_extension": {
+      "Address": "00000001000069b2",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_mtime": {
+      "Address": "000000010000713c",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_name": {
+      "Address": "00000001000066d0",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_size": {
+      "Address": "0000000100006d99",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_df_version": {
+      "Address": "0000000100006fea",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_extension": {
+      "Address": "0000000100006944",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_mtime": {
+      "Address": "0000000100007105",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_name": {
+      "Address": "00000001000066bd",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_size": {
+      "Address": "0000000100006d6b",
+      "Type": "t"
+   },
+   "_rev_xstrcoll_version": {
+      "Address": "0000000100006fd7",
+      "Type": "t"
+   },
+   "_revert_tz": {
+      "Address": "0000000100017722",
+      "Type": "t"
+   },
+   "_rewinddir$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_rpl_acl_entries": {
+      "Address": "0000000100011728",
+      "Type": "T"
+   },
+   "_rpl_calloc": {
+      "Address": "0000000100011779",
+      "Type": "T"
+   },
+   "_rpl_fclose": {
+      "Address": "0000000100011b73",
+      "Type": "T"
+   },
+   "_rpl_fflush": {
+      "Address": "0000000100011bed",
+      "Type": "T"
+   },
+   "_rpl_fpurge": {
+      "Address": "000000010001449b",
+      "Type": "T"
+   },
+   "_rpl_fseeko": {
+      "Address": "00000001000144c1",
+      "Type": "T"
+   },
+   "_rpl_fstatat": {
+      "Address": "0000000100014575",
+      "Type": "T"
+   },
+   "_rpl_getcwd": {
+      "Address": "0000000100014631",
+      "Type": "T"
+   },
+   "_rpl_getopt": {
+      "Address": "0000000100015774",
+      "Type": "T"
+   },
+   "_rpl_getopt_internal": {
+      "Address": "0000000100015715",
+      "Type": "T"
+   },
+   "_rpl_getopt_long": {
+      "Address": "00000001000157d9",
+      "Type": "T"
+   },
+   "_rpl_getopt_long_only": {
+      "Address": "000000010001580e",
+      "Type": "T"
+   },
+   "_rpl_isnanl": {
+      "Address": "0000000100015849",
+      "Type": "T"
+   },
+   "_rpl_lstat": {
+      "Address": "00000001000158bd",
+      "Type": "T"
+   },
+   "_rpl_mktime": {
+      "Address": "0000000100016052",
+      "Type": "T"
+   },
+   "_rpl_openat": {
+      "Address": "0000000100016355",
+      "Type": "T"
+   },
+   "_rpl_openat.have_cloexec": {
+      "Address": "00000001000212d0",
+      "Type": "b"
+   },
+   "_rpl_optarg": {
+      "Address": "00000001000212f8",
+      "Type": "S"
+   },
+   "_rpl_opterr": {
+      "Address": "00000001000200b4",
+      "Type": "D"
+   },
+   "_rpl_optind": {
+      "Address": "00000001000200b0",
+      "Type": "D"
+   },
+   "_rpl_optopt": {
+      "Address": "00000001000200b8",
+      "Type": "D"
+   },
+   "_rpl_readlink": {
+      "Address": "000000010001736c",
+      "Type": "T"
+   },
+   "_rpl_stat": {
+      "Address": "00000001000173e4",
+      "Type": "T"
+   },
+   "_rpl_timegm": {
+      "Address": "00000001000178c6",
+      "Type": "T"
+   },
+   "_rpl_timegm.gmtime_offset": {
+      "Address": "00000001000212d8",
+      "Type": "b"
+   },
+   "_rpl_vfprintf": {
+      "Address": "00000001000195b4",
+      "Type": "T"
+   },
+   "_rpl_wcswidth": {
+      "Address": "00000001000196a3",
+      "Type": "T"
+   },
+   "_rpl_wcwidth": {
+      "Address": "00000001000196ff",
+      "Type": "T"
+   },
+   "_same_name": {
+      "Address": "00000001000100e5",
+      "Type": "T"
+   },
+   "_save_abbr": {
+      "Address": "0000000100017607",
+      "Type": "t"
+   },
+   "_scontext_width": {
+      "Address": "0000000100021034",
+      "Type": "b"
+   },
+   "_seen_file": {
+      "Address": "000000010000962a",
+      "Type": "T"
+   },
+   "_set_char_quoting": {
+      "Address": "000000010000e488",
+      "Type": "T"
+   },
+   "_set_cloexec_flag": {
+      "Address": "0000000100009299",
+      "Type": "T"
+   },
+   "_set_custom_quoting": {
+      "Address": "000000010000e4df",
+      "Type": "T"
+   },
+   "_set_line_length": {
+      "Address": "000000010000570d",
+      "Type": "t"
+   },
+   "_set_normal_color": {
+      "Address": "0000000100007ca3",
+      "Type": "t"
+   },
+   "_set_program_name": {
+      "Address": "000000010000e38a",
+      "Type": "T"
+   },
+   "_set_quoting_flags": {
+      "Address": "000000010000e4c5",
+      "Type": "T"
+   },
+   "_set_quoting_style": {
+      "Address": "000000010000e472",
+      "Type": "T"
+   },
+   "_set_tz": {
+      "Address": "000000010001756a",
+      "Type": "t"
+   },
+   "_setenv": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_setjmp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_setlocale": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_sigaction": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_sighandler": {
+      "Address": "00000001000056f8",
+      "Type": "t"
+   },
+   "_signal": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_signal_setup": {
+      "Address": "00000001000055e4",
+      "Type": "t"
+   },
+   "_signal_setup.sig": {
+      "Address": "0000000100019f10",
+      "Type": "s"
+   },
+   "_sigprocmask": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_slot0": {
+      "Address": "0000000100021180",
+      "Type": "b"
+   },
+   "_slotvec": {
+      "Address": "0000000100020058",
+      "Type": "d"
+   },
+   "_slotvec0": {
+      "Address": "0000000100020068",
+      "Type": "d"
+   },
+   "_snprintf": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_sort_args": {
+      "Address": "000000010001f9a0",
+      "Type": "s"
+   },
+   "_sort_files": {
+      "Address": "00000001000042bc",
+      "Type": "t"
+   },
+   "_sort_functions": {
+      "Address": "000000010001fbc0",
+      "Type": "s"
+   },
+   "_sort_reverse": {
+      "Address": "000000010002038c",
+      "Type": "b"
+   },
+   "_sort_type": {
+      "Address": "0000000100020178",
+      "Type": "b"
+   },
+   "_sort_types": {
+      "Address": "0000000100019f40",
+      "Type": "s"
+   },
+   "_sorted_file": {
+      "Address": "0000000100021010",
+      "Type": "b"
+   },
+   "_sorted_file_alloc": {
+      "Address": "0000000100021050",
+      "Type": "b"
+   },
+   "_sprintf": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_stat$INODE64": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_stop_signal_count": {
+      "Address": "000000010002026c",
+      "Type": "b"
+   },
+   "_stophandler": {
+      "Address": "00000001000056e3",
+      "Type": "t"
+   },
+   "_stpcpy": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_stpncpy": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strchr": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strcmp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strcmp_atime": {
+      "Address": "0000000100007792",
+      "Type": "t"
+   },
+   "_strcmp_ctime": {
+      "Address": "00000001000074aa",
+      "Type": "t"
+   },
+   "_strcmp_df_atime": {
+      "Address": "00000001000077c6",
+      "Type": "t"
+   },
+   "_strcmp_df_ctime": {
+      "Address": "00000001000074de",
+      "Type": "t"
+   },
+   "_strcmp_df_extension": {
+      "Address": "0000000100006add",
+      "Type": "t"
+   },
+   "_strcmp_df_mtime": {
+      "Address": "00000001000071f6",
+      "Type": "t"
+   },
+   "_strcmp_df_name": {
+      "Address": "0000000100006744",
+      "Type": "t"
+   },
+   "_strcmp_df_size": {
+      "Address": "0000000100006e41",
+      "Type": "t"
+   },
+   "_strcmp_extension": {
+      "Address": "0000000100006a6c",
+      "Type": "t"
+   },
+   "_strcmp_mtime": {
+      "Address": "00000001000071c2",
+      "Type": "t"
+   },
+   "_strcmp_name": {
+      "Address": "0000000100006734",
+      "Type": "t"
+   },
+   "_strcmp_size": {
+      "Address": "0000000100006e16",
+      "Type": "t"
+   },
+   "_strcoll": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strcpy": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strdup": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strerror_r": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strftime": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strlen": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strmode": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strncmp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strrchr": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strspn": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strtoul": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_strtoumax": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_subdired_obstack": {
+      "Address": "00000001000201e0",
+      "Type": "b"
+   },
+   "_tabsize": {
+      "Address": "00000001000203b0",
+      "Type": "b"
+   },
+   "_tcgetpgrp": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_time_args": {
+      "Address": "000000010001f9d0",
+      "Type": "s"
+   },
+   "_time_style_args": {
+      "Address": "000000010001fac0",
+      "Type": "s"
+   },
+   "_time_style_types": {
+      "Address": "0000000100019ff0",
+      "Type": "s"
+   },
+   "_time_type": {
+      "Address": "0000000100020388",
+      "Type": "b"
+   },
+   "_time_types": {
+      "Address": "0000000100019f60",
+      "Type": "s"
+   },
+   "_transfer_entries": {
+      "Address": "000000010000a563",
+      "Type": "t"
+   },
+   "_triple_compare": {
+      "Address": "000000010000abff",
+      "Type": "T"
+   },
+   "_triple_compare_ino_str": {
+      "Address": "000000010000ac26",
+      "Type": "T"
+   },
+   "_triple_free": {
+      "Address": "000000010000ac52",
+      "Type": "T"
+   },
+   "_triple_hash": {
+      "Address": "000000010000abc7",
+      "Type": "T"
+   },
+   "_triple_hash_no_name": {
+      "Address": "000000010000abed",
+      "Type": "T"
+   },
+   "_tzalloc": {
+      "Address": "000000010001743f",
+      "Type": "T"
+   },
+   "_tzfree": {
+      "Address": "00000001000174bf",
+      "Type": "T"
+   },
+   "_tzset": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_uc_width": {
+      "Address": "0000000100010200",
+      "Type": "T"
+   },
+   "_umaxtostr": {
+      "Address": "000000010000ba02",
+      "Type": "T"
+   },
+   "_unsetenv": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_usage": {
+      "Address": "0000000100005273",
+      "Type": "T"
+   },
+   "_use_abformat": {
+      "Address": "0000000100020ff0",
+      "Type": "b"
+   },
+   "_used_color": {
+      "Address": "0000000100020268",
+      "Type": "b"
+   },
+   "_uselocale": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_user_alist": {
+      "Address": "0000000100021118",
+      "Type": "b"
+   },
+   "_vasnprintf": {
+      "Address": "00000001000178e8",
+      "Type": "T"
+   },
+   "_version_etc": {
+      "Address": "00000001000107fd",
+      "Type": "T"
+   },
+   "_version_etc_ar": {
+      "Address": "0000000100010768",
+      "Type": "T"
+   },
+   "_version_etc_arn": {
+      "Address": "000000010001050c",
+      "Type": "T"
+   },
+   "_version_etc_copyright": {
+      "Address": "000000010001bd90",
+      "Type": "S"
+   },
+   "_version_etc_va": {
+      "Address": "0000000100010785",
+      "Type": "T"
+   },
+   "_wcscat": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_wcslen": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_wcstombs": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_wctype": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_wcwidth": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_when_args": {
+      "Address": "000000010001fa40",
+      "Type": "s"
+   },
+   "_when_types": {
+      "Address": "0000000100019fa0",
+      "Type": "s"
+   },
+   "_wmemchr": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_wmemcpy": {
+      "Address": "",
+      "Type": "U"
+   },
+   "_x2realloc": {
+      "Address": "000000010001093b",
+      "Type": "T"
+   },
+   "_xalloc_die": {
+      "Address": "0000000100010a4e",
+      "Type": "T"
+   },
+   "_xcalloc": {
+      "Address": "00000001000109af",
+      "Type": "T"
+   },
+   "_xdectoumax": {
+      "Address": "0000000100010b43",
+      "Type": "T"
+   },
+   "_xgetcwd": {
+      "Address": "0000000100010b71",
+      "Type": "T"
+   },
+   "_xgethostname": {
+      "Address": "0000000100010ba1",
+      "Type": "T"
+   },
+   "_xmalloc": {
+      "Address": "00000001000108dd",
+      "Type": "T"
+   },
+   "_xmemdup": {
+      "Address": "00000001000109d8",
+      "Type": "T"
+   },
+   "_xnmalloc": {
+      "Address": "00000001000036c2",
+      "Type": "t"
+   },
+   "_xnumtoumax": {
+      "Address": "0000000100010a77",
+      "Type": "T"
+   },
+   "_xrealloc": {
+      "Address": "0000000100010901",
+      "Type": "T"
+   },
+   "_xstrcoll": {
+      "Address": "0000000100007906",
+      "Type": "t"
+   },
+   "_xstrcoll_atime": {
+      "Address": "000000010000761e",
+      "Type": "t"
+   },
+   "_xstrcoll_ctime": {
+      "Address": "0000000100007336",
+      "Type": "t"
+   },
+   "_xstrcoll_df_atime": {
+      "Address": "0000000100007652",
+      "Type": "t"
+   },
+   "_xstrcoll_df_ctime": {
+      "Address": "000000010000736a",
+      "Type": "t"
+   },
+   "_xstrcoll_df_extension": {
+      "Address": "000000010000688a",
+      "Type": "t"
+   },
+   "_xstrcoll_df_mtime": {
+      "Address": "0000000100007082",
+      "Type": "t"
+   },
+   "_xstrcoll_df_name": {
+      "Address": "000000010000665c",
+      "Type": "t"
+   },
+   "_xstrcoll_df_size": {
+      "Address": "0000000100006cf1",
+      "Type": "t"
+   },
+   "_xstrcoll_df_version": {
+      "Address": "0000000100006f76",
+      "Type": "t"
+   },
+   "_xstrcoll_extension": {
+      "Address": "000000010000681c",
+      "Type": "t"
+   },
+   "_xstrcoll_mtime": {
+      "Address": "000000010000704e",
+      "Type": "t"
+   },
+   "_xstrcoll_name": {
+      "Address": "000000010000664c",
+      "Type": "t"
+   },
+   "_xstrcoll_size": {
+      "Address": "0000000100006cc6",
+      "Type": "t"
+   },
+   "_xstrcoll_version": {
+      "Address": "0000000100006f66",
+      "Type": "t"
+   },
+   "_xstrdup": {
+      "Address": "0000000100010a0f",
+      "Type": "T"
+   },
+   "_xstrtol_fatal": {
+      "Address": "0000000100011188",
+      "Type": "T"
+   },
+   "_xstrtoul": {
+      "Address": "0000000100010c54",
+      "Type": "T"
+   },
+   "_xstrtoumax": {
+      "Address": "00000001000111f4",
+      "Type": "T"
+   },
+   "_xzalloc": {
+      "Address": "000000010001098a",
+      "Type": "T"
+   },
+   "_ydhms_diff": {
+      "Address": "0000000100015de0",
+      "Type": "t"
+   },
+   "dyld_stub_binder": {
+      "Address": "",
+      "Type": "U"
+   }
+}
