@@ -1,0 +1,674 @@
+﻿[
+ {
+   "Address": "00000000000060a0",
+   "Size": "0000000000000029",
+   "Type": "t",
+   "Symbol_Name": "atexit"
+ },
+ {
+   "Address": "0000000000006680",
+   "Size": "0000000000000100",
+   "Type": "r",
+   "Symbol_Name": "b64"
+ },
+ {
+   "Address": "0000000000006780",
+   "Size": "0000000000000040",
+   "Type": "r",
+   "Symbol_Name": "b64c"
+ },
+ {
+   "Address": "0000000000002c20",
+   "Size": "00000000000000bf",
+   "Type": "T",
+   "Symbol_Name": "base64_decode_alloc_ctx"
+ },
+ {
+   "Address": "0000000000002970",
+   "Size": "00000000000002a7",
+   "Type": "T",
+   "Symbol_Name": "base64_decode_ctx"
+ },
+ {
+   "Address": "0000000000002960",
+   "Size": "0000000000000007",
+   "Type": "T",
+   "Symbol_Name": "base64_decode_ctx_init"
+ },
+ {
+   "Address": "00000000000026e0",
+   "Size": "00000000000001c4",
+   "Type": "T",
+   "Symbol_Name": "base64_encode"
+ },
+ {
+   "Address": "00000000000028b0",
+   "Size": "000000000000008d",
+   "Type": "T",
+   "Symbol_Name": "base64_encode_alloc"
+ },
+ {
+   "Address": "0000000000209238",
+   "Size": "0000000000000008",
+   "Type": "b",
+   "Symbol_Name": "charset_aliases"
+ },
+ {
+   "Address": "00000000000042c0",
+   "Size": "0000000000000036",
+   "Type": "T",
+   "Symbol_Name": "clone_quoting_options"
+ },
+ {
+   "Address": "0000000000002d00",
+   "Size": "00000000000000ae",
+   "Type": "T",
+   "Symbol_Name": "close_stdout"
+ },
+ {
+   "Address": "0000000000002ce0",
+   "Size": "0000000000000008",
+   "Type": "T",
+   "Symbol_Name": "close_stdout_set_file_name"
+ },
+ {
+   "Address": "0000000000002cf0",
+   "Size": "0000000000000008",
+   "Type": "T",
+   "Symbol_Name": "close_stdout_set_ignore_EPIPE"
+ },
+ {
+   "Address": "0000000000005b00",
+   "Size": "000000000000007a",
+   "Type": "T",
+   "Symbol_Name": "close_stream"
+ },
+ {
+   "Address": "00000000002090c8",
+   "Size": "0000000000000001",
+   "Type": "b",
+   "Symbol_Name": "completed.7561"
+ },
+ {
+   "Address": "00000000000025d0",
+   "Size": "0000000000000108",
+   "Type": "t",
+   "Symbol_Name": "decode_4"
+ },
+ {
+   "Address": "0000000000209200",
+   "Size": "0000000000000038",
+   "Type": "b",
+   "Symbol_Name": "default_quoting_options"
+ },
+ {
+   "Address": "0000000000001c60",
+   "Size": "0000000000000262",
+   "Type": "t",
+   "Symbol_Name": "do_decode"
+ },
+ {
+   "Address": "0000000000001ed0",
+   "Size": "000000000000032d",
+   "Type": "t",
+   "Symbol_Name": "do_encode"
+ },
+ {
+   "Address": "00000000000050b0",
+   "Size": "0000000000000080",
+   "Type": "T",
+   "Symbol_Name": "emit_bug_reporting_address"
+ },
+ {
+   "Address": "0000000000209018",
+   "Size": "0000000000000004",
+   "Type": "D",
+   "Symbol_Name": "exit_failure"
+ },
+ {
+   "Address": "0000000000002dc0",
+   "Size": "0000000000000022",
+   "Type": "T",
+   "Symbol_Name": "fadvise"
+ },
+ {
+   "Address": "0000000000002db0",
+   "Size": "0000000000000005",
+   "Type": "T",
+   "Symbol_Name": "fdadvise"
+ },
+ {
+   "Address": "00000000002090d8",
+   "Size": "0000000000000008",
+   "Type": "b",
+   "Symbol_Name": "file_name"
+ },
+ {
+   "Address": "0000000000004300",
+   "Size": "0000000000000011",
+   "Type": "T",
+   "Symbol_Name": "get_quoting_style"
+ },
+ {
+   "Address": "0000000000002e90",
+   "Size": "00000000000000d8",
+   "Type": "t",
+   "Symbol_Name": "gettext_quote.part.1"
+ },
+ {
+   "Address": "0000000000005b80",
+   "Size": "0000000000000052",
+   "Type": "T",
+   "Symbol_Name": "hard_locale"
+ },
+ {
+   "Address": "00000000002090d0",
+   "Size": "0000000000000001",
+   "Type": "b",
+   "Symbol_Name": "ignore_EPIPE"
+ },
+ {
+   "Address": "00000000000060e0",
+   "Size": "0000000000000004",
+   "Type": "R",
+   "Symbol_Name": "_IO_stdin_used"
+ },
+ {
+   "Address": "0000000000002940",
+   "Size": "0000000000000015",
+   "Type": "T",
+   "Symbol_Name": "isbase64"
+ },
+ {
+   "Address": "0000000000006090",
+   "Size": "0000000000000002",
+   "Type": "T",
+   "Symbol_Name": "__libc_csu_fini"
+ },
+ {
+   "Address": "0000000000006020",
+   "Size": "0000000000000065",
+   "Type": "T",
+   "Symbol_Name": "__libc_csu_init"
+ },
+ {
+   "Address": "0000000000005be0",
+   "Size": "000000000000043d",
+   "Type": "T",
+   "Symbol_Name": "locale_charset"
+ },
+ {
+   "Address": "0000000000208b00",
+   "Size": "00000000000000c0",
+   "Type": "d",
+   "Symbol_Name": "long_options"
+ },
+ {
+   "Address": "0000000000001870",
+   "Size": "00000000000002b7",
+   "Type": "T",
+   "Symbol_Name": "main"
+ },
+ {
+   "Address": "0000000000209058",
+   "Size": "0000000000000004",
+   "Type": "d",
+   "Symbol_Name": "nslots"
+ },
+ {
+   "Address": "00000000002090a0",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "optarg@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000209098",
+   "Size": "0000000000000004",
+   "Type": "B",
+   "Symbol_Name": "optind@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000007170",
+   "Size": "000000000000000b",
+   "Type": "r",
+   "Symbol_Name": "__PRETTY_FUNCTION__.4083"
+ },
+ {
+   "Address": "00000000002090a8",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "__progname_full@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000209080",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "__progname@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "00000000002090a8",
+   "Size": "0000000000000008",
+   "Type": "V",
+   "Symbol_Name": "program_invocation_name@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000209080",
+   "Size": "0000000000000008",
+   "Type": "V",
+   "Symbol_Name": "program_invocation_short_name@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "00000000002090e0",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "program_name"
+ },
+ {
+   "Address": "0000000000004af0",
+   "Size": "0000000000000018",
+   "Type": "T",
+   "Symbol_Name": "quote"
+ },
+ {
+   "Address": "0000000000004620",
+   "Size": "0000000000000018",
+   "Type": "T",
+   "Symbol_Name": "quotearg"
+ },
+ {
+   "Address": "0000000000004540",
+   "Size": "000000000000000a",
+   "Type": "T",
+   "Symbol_Name": "quotearg_alloc"
+ },
+ {
+   "Address": "0000000000004450",
+   "Size": "00000000000000e3",
+   "Type": "T",
+   "Symbol_Name": "quotearg_alloc_mem"
+ },
+ {
+   "Address": "00000000000043d0",
+   "Size": "0000000000000074",
+   "Type": "T",
+   "Symbol_Name": "quotearg_buffer"
+ },
+ {
+   "Address": "0000000000002f70",
+   "Size": "0000000000001185",
+   "Type": "t",
+   "Symbol_Name": "quotearg_buffer_restyled"
+ },
+ {
+   "Address": "00000000000048a0",
+   "Size": "0000000000000010",
+   "Type": "T",
+   "Symbol_Name": "quotearg_char"
+ },
+ {
+   "Address": "00000000000047e0",
+   "Size": "00000000000000ba",
+   "Type": "T",
+   "Symbol_Name": "quotearg_char_mem"
+ },
+ {
+   "Address": "00000000000048b0",
+   "Size": "0000000000000011",
+   "Type": "T",
+   "Symbol_Name": "quotearg_colon"
+ },
+ {
+   "Address": "00000000000048d0",
+   "Size": "000000000000000a",
+   "Type": "T",
+   "Symbol_Name": "quotearg_colon_mem"
+ },
+ {
+   "Address": "0000000000004a60",
+   "Size": "0000000000000017",
+   "Type": "T",
+   "Symbol_Name": "quotearg_custom"
+ },
+ {
+   "Address": "0000000000004a80",
+   "Size": "0000000000000013",
+   "Type": "T",
+   "Symbol_Name": "quotearg_custom_mem"
+ },
+ {
+   "Address": "0000000000004550",
+   "Size": "0000000000000093",
+   "Type": "T",
+   "Symbol_Name": "quotearg_free"
+ },
+ {
+   "Address": "0000000000004640",
+   "Size": "0000000000000014",
+   "Type": "T",
+   "Symbol_Name": "quotearg_mem"
+ },
+ {
+   "Address": "00000000000045f0",
+   "Size": "0000000000000013",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n"
+ },
+ {
+   "Address": "0000000000004a50",
+   "Size": "000000000000000c",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n_custom"
+ },
+ {
+   "Address": "0000000000004990",
+   "Size": "00000000000000b2",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n_custom_mem"
+ },
+ {
+   "Address": "0000000000004610",
+   "Size": "000000000000000c",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n_mem"
+ },
+ {
+   "Address": "0000000000004100",
+   "Size": "00000000000001b5",
+   "Type": "t",
+   "Symbol_Name": "quotearg_n_options"
+ },
+ {
+   "Address": "0000000000004660",
+   "Size": "00000000000000ae",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n_style"
+ },
+ {
+   "Address": "00000000000048e0",
+   "Size": "00000000000000ae",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n_style_colon"
+ },
+ {
+   "Address": "0000000000004710",
+   "Size": "00000000000000a6",
+   "Type": "T",
+   "Symbol_Name": "quotearg_n_style_mem"
+ },
+ {
+   "Address": "00000000000047c0",
+   "Size": "000000000000000c",
+   "Type": "T",
+   "Symbol_Name": "quotearg_style"
+ },
+ {
+   "Address": "00000000000047d0",
+   "Size": "000000000000000f",
+   "Type": "T",
+   "Symbol_Name": "quotearg_style_mem"
+ },
+ {
+   "Address": "0000000000004ab0",
+   "Size": "0000000000000014",
+   "Type": "T",
+   "Symbol_Name": "quote_mem"
+ },
+ {
+   "Address": "0000000000004ad0",
+   "Size": "0000000000000013",
+   "Type": "T",
+   "Symbol_Name": "quote_n"
+ },
+ {
+   "Address": "0000000000004aa0",
+   "Size": "000000000000000c",
+   "Type": "T",
+   "Symbol_Name": "quote_n_mem"
+ },
+ {
+   "Address": "0000000000209020",
+   "Size": "0000000000000038",
+   "Type": "D",
+   "Symbol_Name": "quote_quoting_options"
+ },
+ {
+   "Address": "0000000000208bc0",
+   "Size": "0000000000000058",
+   "Type": "D",
+   "Symbol_Name": "quoting_style_args"
+ },
+ {
+   "Address": "0000000000006cc0",
+   "Size": "0000000000000028",
+   "Type": "R",
+   "Symbol_Name": "quoting_style_vals"
+ },
+ {
+   "Address": "0000000000005960",
+   "Size": "000000000000007b",
+   "Type": "T",
+   "Symbol_Name": "rpl_fclose"
+ },
+ {
+   "Address": "00000000000059e0",
+   "Size": "0000000000000040",
+   "Type": "T",
+   "Symbol_Name": "rpl_fflush"
+ },
+ {
+   "Address": "0000000000005a20",
+   "Size": "0000000000000057",
+   "Type": "T",
+   "Symbol_Name": "rpl_fseeko"
+ },
+ {
+   "Address": "0000000000005a80",
+   "Size": "000000000000007f",
+   "Type": "T",
+   "Symbol_Name": "rpl_mbrtowc"
+ },
+ {
+   "Address": "0000000000004340",
+   "Size": "0000000000000035",
+   "Type": "T",
+   "Symbol_Name": "set_char_quoting"
+ },
+ {
+   "Address": "00000000000043a0",
+   "Size": "0000000000000030",
+   "Type": "T",
+   "Symbol_Name": "set_custom_quoting"
+ },
+ {
+   "Address": "0000000000002df0",
+   "Size": "0000000000000099",
+   "Type": "T",
+   "Symbol_Name": "set_program_name"
+ },
+ {
+   "Address": "0000000000004380",
+   "Size": "0000000000000015",
+   "Type": "T",
+   "Symbol_Name": "set_quoting_flags"
+ },
+ {
+   "Address": "0000000000004320",
+   "Size": "0000000000000011",
+   "Type": "T",
+   "Symbol_Name": "set_quoting_style"
+ },
+ {
+   "Address": "0000000000209100",
+   "Size": "0000000000000100",
+   "Type": "b",
+   "Symbol_Name": "slot0"
+ },
+ {
+   "Address": "0000000000209060",
+   "Size": "0000000000000008",
+   "Type": "d",
+   "Symbol_Name": "slotvec"
+ },
+ {
+   "Address": "0000000000209070",
+   "Size": "0000000000000010",
+   "Type": "d",
+   "Symbol_Name": "slotvec0"
+ },
+ {
+   "Address": "0000000000001b30",
+   "Size": "000000000000002b",
+   "Type": "T",
+   "Symbol_Name": "_start"
+ },
+ {
+   "Address": "00000000002090c0",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "stderr@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000209090",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "stdin@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000209088",
+   "Size": "0000000000000008",
+   "Type": "B",
+   "Symbol_Name": "stdout@@GLIBC_2.2.5"
+ },
+ {
+   "Address": "0000000000002200",
+   "Size": "00000000000003c5",
+   "Type": "T",
+   "Symbol_Name": "usage"
+ },
+ {
+   "Address": "0000000000209010",
+   "Size": "0000000000000008",
+   "Type": "D",
+   "Symbol_Name": "Version"
+ },
+ {
+   "Address": "0000000000004fd0",
+   "Size": "00000000000000d5",
+   "Type": "T",
+   "Symbol_Name": "version_etc"
+ },
+ {
+   "Address": "0000000000004f30",
+   "Size": "0000000000000020",
+   "Type": "T",
+   "Symbol_Name": "version_etc_ar"
+ },
+ {
+   "Address": "0000000000004b10",
+   "Size": "0000000000000417",
+   "Type": "T",
+   "Symbol_Name": "version_etc_arn"
+ },
+ {
+   "Address": "0000000000007020",
+   "Size": "000000000000002f",
+   "Type": "R",
+   "Symbol_Name": "version_etc_copyright"
+ },
+ {
+   "Address": "0000000000004f50",
+   "Size": "0000000000000078",
+   "Type": "T",
+   "Symbol_Name": "version_etc_va"
+ },
+ {
+   "Address": "0000000000005200",
+   "Size": "0000000000000079",
+   "Type": "T",
+   "Symbol_Name": "x2nrealloc"
+ },
+ {
+   "Address": "0000000000005280",
+   "Size": "000000000000004a",
+   "Type": "T",
+   "Symbol_Name": "x2realloc"
+ },
+ {
+   "Address": "0000000000005370",
+   "Size": "0000000000000035",
+   "Type": "T",
+   "Symbol_Name": "xalloc_die"
+ },
+ {
+   "Address": "00000000000052f0",
+   "Size": "000000000000002e",
+   "Type": "T",
+   "Symbol_Name": "xcalloc"
+ },
+ {
+   "Address": "0000000000005180",
+   "Size": "0000000000000002",
+   "Type": "T",
+   "Symbol_Name": "xcharalloc"
+ },
+ {
+   "Address": "00000000000054c0",
+   "Size": "0000000000000021",
+   "Type": "T",
+   "Symbol_Name": "xdectoumax"
+ },
+ {
+   "Address": "0000000000005130",
+   "Size": "000000000000001a",
+   "Type": "T",
+   "Symbol_Name": "xmalloc"
+ },
+ {
+   "Address": "0000000000005320",
+   "Size": "0000000000000028",
+   "Type": "T",
+   "Symbol_Name": "xmemdup"
+ },
+ {
+   "Address": "0000000000005150",
+   "Size": "0000000000000024",
+   "Type": "T",
+   "Symbol_Name": "xnmalloc"
+ },
+ {
+   "Address": "00000000000051d0",
+   "Size": "0000000000000024",
+   "Type": "T",
+   "Symbol_Name": "xnrealloc"
+ },
+ {
+   "Address": "00000000000053b0",
+   "Size": "0000000000000105",
+   "Type": "T",
+   "Symbol_Name": "xnumtoumax"
+ },
+ {
+   "Address": "0000000000005190",
+   "Size": "0000000000000036",
+   "Type": "T",
+   "Symbol_Name": "xrealloc"
+ },
+ {
+   "Address": "0000000000005350",
+   "Size": "0000000000000013",
+   "Type": "T",
+   "Symbol_Name": "xstrdup"
+ },
+ {
+   "Address": "00000000000054f0",
+   "Size": "000000000000046f",
+   "Type": "T",
+   "Symbol_Name": "xstrtoumax"
+ },
+ {
+   "Address": "00000000000052d0",
+   "Size": "0000000000000017",
+   "Type": "T",
+   "Symbol_Name": "xzalloc"
+ }
+]
