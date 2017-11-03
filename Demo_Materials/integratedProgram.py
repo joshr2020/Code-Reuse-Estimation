@@ -16,12 +16,6 @@ from pprint import pprint
 #         dictx[obj['Symbol_Name']] = obj['Size']
 #     return dictx
 
-def dfToDict(x):
-    dictx = {}
-    for i in x:
-        dictx[x[i]['Symbol_Name']] = x[i]['Size']
-    pprint(dictx)
-
 #x is a dictionary
 def getTotalSize(x):
     x_total = 0
@@ -45,12 +39,7 @@ def compare(x, y):
     result = float(overlap_size) / float(x_total + y_total - overlap_size)
     return result
 
-#x and y are both json filenames
-def calculateOverlap(x, y):
-    print("Overlap: ", compare(x, y))
-
-def gatherNMDump():
-    exe = input('Enter the name of the executable: ')
+def gatherNMDump(exe):
     filepath = "../testecutables/" + exe
     write_out = open(exe + "_dump.txt", "w")
     subprocess.run(['nm', '-S', filepath], stdout=write_out)
@@ -78,11 +67,20 @@ def textToDataFrame(fileName):
     return df
 
 def main():
-    firstFH = gatherNMDump()
-    secondFH = gatherNMDump()
+    exe1 = input('Enter the name of the executable: ')
+    exe2 = input('Enter the name of the executable: ')
+
+    firstFH = gatherNMDump(exe1)
+    secondFH = gatherNMDump(exe2)
 
     df = textToDataFrame(firstFH)
     df2 = textToDataFrame(secondFH)
-    dfToDict(df)
+    
+    dict1 = df.set_index('Symbol_Name')['Size'].to_dict()
+    dict2 = df2.set_index('Symbol_Name')['Size'].to_dict()
+
+    result = compare(dict1, dict2)
+
+    print('Overlap of %s and %s is: %f' % (exe1, exe2, result))
 
 if __name__ == "__main__": main()
