@@ -72,16 +72,12 @@ def main(argv):
         print("invalid arguments")
         sys.exit(0)
 
-    print(sys.argv[1])
-    print(sys.argv[2])
-
     firstFH = gatherNMDump(sys.argv[1])
     secondFH = gatherNMDump(sys.argv[2])
 
     df = textToDataFrame(firstFH)
     df2 = textToDataFrame(secondFH)
-    dfToDict(df)
-    subprocess.run(['rm', '*_dump.txt'])
+    #subprocess.run(['rm', '*_dump.txt'])
 
 
     dict1 = df.set_index('Symbol_Name')['Size'].to_dict()
@@ -89,7 +85,7 @@ def main(argv):
 
     result = compare(dict1, dict2)
 
-    print('Overlap of %s and %s is: %f' % (exe1, exe2, result))
+    print('Overlap of %s and %s is: %f' % (sys.argv[1], sys.argv[2], result))
 
 if __name__ == "__main__":
     main(sys.argv[0:])
