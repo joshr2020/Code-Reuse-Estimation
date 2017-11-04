@@ -2,6 +2,7 @@
 Copyright (C) 2017 Aurin Chakravarty & Joshua Russo
 '''
 import json
+import os
 import io
 import sys
 import csv
@@ -34,15 +35,16 @@ def compare(x, y):
     return result
 
 
-def gatherNMDump(exe):
-    filepath = "../testecutables/" + exe
-    write_out = open(exe + "_dump.txt", "w")
-    subprocess.run(['nm', '-S', filepath], stdout=write_out)
+def gatherNMDump(exe, rootdir):
+    index = exe.rfind("/")
+    justExeName = exe[index + 1:]
+    write_out = open(rootdir + "bin/" + justExeName + "_dump.txt", "w")
+    subprocess.run(['nm', '-S', exe], stdout=write_out)
     fileName = write_out.name
     write_out.close()
     return fileName
 
-def textToDataFrame(fileName):
+def textToDataFrame(fileName, rootdir):
     #File handle for first executable
     tempFileName = fileName.rsplit(".", 1)[0]
     outfilename = open(tempFileName + "_filtered.txt", 'w+')
@@ -65,18 +67,25 @@ def main(argv):
         print("invalid arguments")
         sys.exit(0)
 
-    firstFH = gatherNMDump(sys.argv[1])
-    secondFH = gatherNMDump(sys.argv[2])
+    rootdir = os.getcwd()
+    index = rootdir.rfind("/")
+    rootdir = rootdir[:index+1]
 
-    df = textToDataFrame(firstFH)
-    df2 = textToDataFrame(secondFH)
+    if not os.path.exists(rootdir + "bin/"):
+        os.makedirs(rootdir + "bin/")
+
+    firstFH = gatherNMDump(sys.argv[1], rootdir)
+    secondFH = gatherNMDump(sys.argv[2], rootdir)
+
+    df = textToDataFrame(firstFH, rootdir)
+    df2 = textToDataFrame(secondFH, rootdir)
 
     dict1 = df.set_index('Symbol_Name')['Size'].to_dict()
     dict2 = df2.set_index('Symbol_Name')['Size'].to_dict()
 
     result = compare(dict1, dict2)
 
-    print('Overlap of %s and %s is: %f' % (sys.argv[1], sys.argv[2], result))
+    print('%s, %s, %f' % (sys.argv[1], sys.argv[2], result))
 
 if __name__ == "__main__":
     main(sys.argv[0:])
