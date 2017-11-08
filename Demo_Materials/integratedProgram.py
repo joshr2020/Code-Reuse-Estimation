@@ -39,6 +39,7 @@ def compare(x, y):
     result = float(overlap_size) / float(x_total + y_total - overlap_size)
     return result
 
+
 def gatherNMDump(exe):
     filepath = "../testecutables/" + exe
     write_out = open(exe + "_dump.txt", "w")
@@ -66,16 +67,23 @@ def textToDataFrame(fileName):
     df.reset_index().to_json(orient='records')
     return df
 
-def main():
-    exe1 = input('Enter the name of the executable: ')
-    exe2 = input('Enter the name of the executable: ')
+def main(argv):
+    if len(sys.argv) != 3:
+        print("invalid arguments")
+        sys.exit(0)
 
-    firstFH = gatherNMDump(exe1)
-    secondFH = gatherNMDump(exe2)
+    print(sys.argv[1])
+    print(sys.argv[2])
+
+    firstFH = gatherNMDump(sys.argv[1])
+    secondFH = gatherNMDump(sys.argv[2])
 
     df = textToDataFrame(firstFH)
     df2 = textToDataFrame(secondFH)
-    
+    dfToDict(df)
+    subprocess.run(['rm', '*_dump.txt'])
+
+
     dict1 = df.set_index('Symbol_Name')['Size'].to_dict()
     dict2 = df2.set_index('Symbol_Name')['Size'].to_dict()
 
@@ -83,4 +91,5 @@ def main():
 
     print('Overlap of %s and %s is: %f' % (exe1, exe2, result))
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main(sys.argv[0:])
