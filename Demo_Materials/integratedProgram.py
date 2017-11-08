@@ -1,3 +1,6 @@
+'''
+Copyright (C) 2017 Aurin Chakravarty & Joshua Russo
+'''
 import json
 import io
 import sys
@@ -6,15 +9,6 @@ import pandas as pd
 import subprocess
 from itertools import islice
 from pprint import pprint
-
-#x is a json filename
-# def compileDict(x):
-#     with io.open(x, 'r', encoding='utf-8-sig') as filex:
-#         datax = json.load(filex)
-#     dictx = {}
-#     for obj in datax:
-#         dictx[obj['Symbol_Name']] = obj['Size']
-#     return dictx
 
 #x is a dictionary
 def getTotalSize(x):
@@ -61,7 +55,6 @@ def textToDataFrame(fileName):
 
     outfilename.close()
 
-
     df = pd.read_table(outfilename.name, header = None, delim_whitespace=True)
     df.columns = ['Address', 'Size', 'Type', 'Symbol_Name']
     df.reset_index().to_json(orient='records')
@@ -77,8 +70,6 @@ def main(argv):
 
     df = textToDataFrame(firstFH)
     df2 = textToDataFrame(secondFH)
-    #subprocess.run(['rm', '*_dump.txt'])
-
 
     dict1 = df.set_index('Symbol_Name')['Size'].to_dict()
     dict2 = df2.set_index('Symbol_Name')['Size'].to_dict()
