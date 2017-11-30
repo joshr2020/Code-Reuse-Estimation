@@ -1,0 +1,37 @@
+00000000000006a0 0000000000000014 T add
+0000000000201010 B __bss_start
+0000000000201010 0000000000000001 b completed.7561
+                 w __cxa_finalize@@GLIBC_2.2.5
+0000000000201000 D __data_start
+0000000000201000 W data_start
+00000000000005a0 t deregister_tm_clones
+0000000000000630 t __do_global_dtors_aux
+0000000000200de0 t __do_global_dtors_aux_fini_array_entry
+0000000000201008 D __dso_handle
+0000000000200df0 d _DYNAMIC
+0000000000201010 D _edata
+0000000000201018 B _end
+0000000000000774 T _fini
+0000000000000670 t frame_dummy
+0000000000200dd8 t __frame_dummy_init_array_entry
+00000000000008f8 r __FRAME_END__
+0000000000200fb0 d _GLOBAL_OFFSET_TABLE_
+                 w __gmon_start__
+0000000000000788 r __GNU_EH_FRAME_HDR
+0000000000000530 T _init
+0000000000200de0 t __init_array_end
+0000000000200dd8 t __init_array_start
+0000000000000780 0000000000000004 R _IO_stdin_used
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+0000000000200de8 d __JCR_END__
+0000000000200de8 d __JCR_LIST__
+                 w _Jv_RegisterClasses
+0000000000000770 0000000000000002 T __libc_csu_fini
+0000000000000700 0000000000000065 T __libc_csu_init
+                 U __libc_start_main@@GLIBC_2.2.5
+00000000000006b4 000000000000003f T main
+                 U printf@@GLIBC_2.2.5
+00000000000005e0 t register_tm_clones
+0000000000000570 000000000000002b T _start
+0000000000201010 D __TMC_END__
