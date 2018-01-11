@@ -8,7 +8,5 @@ Estimate similarities between binary files
 * os
 * io
 * sys
-* json
-* itertools
 
 ## How to run
