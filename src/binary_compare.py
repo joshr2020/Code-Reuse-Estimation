@@ -79,16 +79,12 @@ def handleInput(input):
         badInput()
 
 def badInput():
-    print("invalid input. format to run: \"binary_compare.py <fullfilepath1> <fullfilepath2>\" or \"binary_compare.py -r <directory> <number_of_comparisons>\"")
+    print("invalid input. format to run: " +
+    "\"binary_compare.py <fullfilepath1> <fullfilepath2>\" or " +
+    "\"binary_compare.py -r <directory> <number_of_comparisons>\"")
     sys.exit(0)
 
-def compare(input):
-    rootdir = os.getcwd()
-    rootdir = os.path.dirname(rootdir)
-
-    if not os.path.exists(rootdir + "/bin/"):
-        os.makedirs(rootdir + "/bin/")
-
+def compare(input, rootdir):
     firstFH = gatherNMDump(input[0], rootdir)
     secondFH = gatherNMDump(input[1], rootdir)
 
@@ -100,24 +96,30 @@ def compare(input):
 
     result = compareDicts(dict1, dict2)
 
-    print('%s, %s, %f' % (input[0], input[1], result))
+    print('%s, %s, %f' % (os.path.abspath(input[0]), os.path.abspath(input[1])
+    , result))
 
 def main(argv):
+    rootdir = os.getcwd()
+    rootdir = os.path.dirname(rootdir)
+    if not os.path.exists(rootdir + "/bin/"):
+        os.makedirs(rootdir + "/bin/")
+
     if handleInput(argv) == 1:
-        compare(argv[1:])
+        compare(argv[1:], rootdir)
 
     if handleInput(argv) == 0:
         filenames = os.listdir(sys.argv[2])
         filepaths = []
         for name in filenames:
-            filepaths.append((os.path.normpath(sys.argv[2]) + "/" + name))
+            filepaths.append(sys.argv[2] + "/" + name)
 
         for x in range(0, int(sys.argv[3])):
             for y in range(x, int(sys.argv[3])):
                 if x == y:
                     continue
                 else:
-                    compare([filepaths[x], filepaths[y]])
+                    compare([filepaths[x], filepaths[y]], rootdir)
 
 if __name__ == "__main__":
     main(sys.argv[0:])
