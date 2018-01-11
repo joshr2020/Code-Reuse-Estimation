@@ -25,7 +25,8 @@ def compareDicts(x, y):
 
     overlap_size = 0
     for key in intersection:
-        overlap_size += int(x.get(key), 16)
+        if int(x.get(key), 16) == int(y.get(key), 16):
+            overlap_size += int(x.get(key), 16)
 
     result = float(overlap_size) / float(x_total + y_total - overlap_size)
     return result
