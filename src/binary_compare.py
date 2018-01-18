@@ -9,7 +9,7 @@ import subprocess
 
 def getTotalSize(x):
     '''
-    Sums up all values in base 16 and converts to base 10.
+    Sums up all string values in base 16 and converts to base 10.
 
     x is a dictionary with keys as symbols and values as sizes in base 16.
     '''
