@@ -6,13 +6,13 @@ Estimate similarities between binary files through analyzing symbol table output
 * subprocess32 (3.2.7)
 * pandas (0.20.1)
 * os
-* io
+* argparse
 * sys
 
 ## How to run
 ### Try it out using included GNU core utilities by running:
-`python3 binary_compare.py -r ../testecutables 10`
+`python3 binary_compare.py many ../testecutables 10`
 ### One pair of executables
-`python3 binary_compare.py <fullfilepath1> <fullfilepath2>`
+`python3 binary_compare.py two <fullfilepath1> <fullfilepath2>`
 ### Directory of executables
-`python3 binary_compare.py -r <directory> <number_of_comparisons>`
+`python3 binary_compare.py many <directory> <number_of_comparisons>`
